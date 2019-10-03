@@ -1,0 +1,1 @@
+/*document.getElementById("pag2").classList.add("ocultar");*/
