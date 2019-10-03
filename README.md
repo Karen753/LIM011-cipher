@@ -1,3 +1,19 @@
+# ***CODECIPHER***
+
+Mi proyecto es una aplicación web que permite cifrar y descifrar mensajes, eligiendo el usuario el tipo desplazamiento(offset) que desea para cifrar o descifrar su mensaje.
+***
+
+## INVESTIGACION UX:
+* **USUARIOS Y OBEJTIVOS:**  
+ El usuario al que va dirigido esta App son para las comisarias de mi ciudad, tiene como objetivo mantener una confidencialidad al momento de archivar las denuncias.
+
+ * **SOLUCIONES:**  
+ Al encriptar el contenido de la denuncia permite más confidencialidad y que solo cierto personal calificado tenga acceso a ella, evitando los posibles problemas de seguridad.
+
+* **FOTO**  
+
+* **FEEDBACK A MI PROYECTO:**  
+mejorar la interfaz de vista 
 
 
 
@@ -10,11 +26,10 @@
 
 
 
-* Crear claves seguras para el email.
-* Encriptar/cifrar una tarjeta de crédito.
-* Herramienta de mensajería interna de una organización de derechos humanos en
-  una zona de conflicto.
-* Mensajería secreta para parejas.
+
+
+
+
 
 
 
