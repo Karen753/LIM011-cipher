@@ -1,2 +1,33 @@
-/*.ocultar{display: none;
+.ocultar{display: none;
+}
+body{
+    font-family: 'Amaranth', sans-serif;
+}
+.centrar {
+    text-align: center
+}
+
+.borde1 {
+position: absolute;
+width: 852px;
+height: 740px;
+left: 284px;
+top: 142px;
+
+border: 7px solid #12C6FF;
+box-sizing: border-box;
+border-radius: 40px;
+}
+.src {
+    position: absolute;
+width: 320px;
+height: 346px;
+left: 560px;
+top: 357px;
+
+background: url(logoof.png);
+}
+#pag1
+{
+    margin: 150pt 150pt 150pt;
 }
