@@ -13,18 +13,44 @@
       <img src="http://www.seprytec.com/img_pag/iconos_portada/SEPRYTEC-guardias-de-seguridad.png"><br>
       <button type="button" id="btn">EMPEZAR</button>
     </div>
-    <div id="pag2">
+    <div id="pag2" class="centrar">
         <button type="button" id="cifrar">CIFRAR</button>
         <button type="button" id="descifrar">DESCIFRAR</button><br>
-        <img src="CANDADO CERRADO.png"/>
-        <img src="CANDADO ABIERTO.png"/>
+        <img src="candado cerrado.png"/>
+        <img src="candado abierto.png"/>
     </div>
-    <div id="pag3"class="box">
-      <label for="">MENSAJE A CIFRAR</label>
-      <label for="">MENSAJE CIFRADO</label>
-        <input> CIFRADO</input><br>
-        <input>Two</input>
-  </div>
+    <div id="pag3" class="centrar">
+        <div id="pag3-1">
+          <label for="">MENSAJE A CIFRAR</label><br>
+          <input>CLAVE</input><br>
+          <textarea name="cifrar" placeholder="mensaje a cifrar" cols=100 rows=10></textarea>
+          <button type="button" id="cifrarmensaje">CIFRAR MENSAJE</button>
+        </div>
+        <div id="pag3-2">
+         <label for="">MENSAJE CIFRADO</label><br>
+         <textarea name="cifrar" placeholder="mensaje cifrado " cols=100 rows=10></textarea>
+         <button type="button" id="volver">VOLVER</button>
+        </div>
+    </div>
+ 
+    <div id="pag4" class=centrar>
+         <div id="pag4-1">
+            <label for="">MENSAJE A DESCIFRAR</label><br>
+            <input>CLAVE</input><br>
+            <textarea name="descifrar" placeholder="mensaje a descifrar" cols=100 rows=10></textarea><br>
+            <button type="button" id="descifrarmensaje">DESCIFRAR MENSAJE</button>
+         </div>
+         <div id="pag4-2">
+            <label for="">MENSAJE DESCIFRADO</label><br>
+            <textarea name="descifrar" placeholder="mensaje descifrado " cols=100 rows=10></textarea><br>
+            <button type="button" id="volver2">VOLVER</button>
+         </div>
+    </div>
+  </div> 
+</div>
+        
+       
+  
     
 
     <script src="cipher.js"></script>

@@ -1,33 +1,43 @@
-.ocultar{display: none;
-}
+
+
 body{
     font-family: 'Amaranth', sans-serif;
 }
 .centrar {
     text-align: center
 }
-
-.borde1 {
-position: absolute;
-width: 852px;
-height: 740px;
-left: 284px;
-top: 142px;
-
-border: 7px solid #12C6FF;
-box-sizing: border-box;
-border-radius: 40px;
-}
-.src {
-    position: absolute;
-width: 320px;
-height: 346px;
-left: 560px;
-top: 357px;
-
-background: url(logoof.png);
-}
 #pag1
 {
+    margin: 100pt 150pt 100pt;
+    font-size: 20px;
+}
+
+img{
+    width:250px;
+    height:250px;
+    margin: 30px 100px;
+   } 
+   
+#pag2{
     margin: 150pt 150pt 150pt;
+    }
+    button{
+        background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #000000;
+    font-size: 17px;
+    margin: 15px 170px;
+    padding: 10px 26px;
+    text-align: center;
+    }
+
+#pag3{
+    margin: 100pt 150pt 100pt;
+    font-size: 20px;
+}
+#pag4{
+    margin: 100pt 150pt 100pt;
+    font-size: 20px;
+
 }
