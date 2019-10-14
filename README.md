@@ -29,6 +29,56 @@ mejorar la interfaz de vista
 
 
 
+### UX
+​
+- [SI ] Diseñar la aplicación pensando y entendiendo al usuario.
+- [SI ] Crear prototipos para obtener feedback e iterar.
+- [SI ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+​
+### HTML y CSS
+​
+- [NO ] Uso correcto de HTML semántico.
+- [NO ] Uso de selectores de CSS.
+- [NO ] Construir tu aplicación respetando el diseño realizado (maquetación).
+​
+### DOM
+​
+- [**NO**] Uso de selectores del DOM.
+- [**SI**] Manejo de eventos del DOM.
+- [NO] Manipulación dinámica del DOM.
+​
+### Javascript
+​
+- [ NO] Manipulación de strings.
+- [NO ] Uso de condicionales (if-else | switch).
+- [NO ] Uso de bucles (for | do-while).	
+- [NO ] Uso de funciones (parámetros | argumentos | valor de retorno).
+- [NO ] Declaración correcta de variables (const & let).
+​
+### Testing
+- [NO ] Testeo de tus funciones.
+​
+### Git y GitHub
+- [SI] Comandos de git (add | commit | pull | status | push).
+- [NO ] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+​
+### Buenas prácticas de desarrollo
+- [NO ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+- [ ] Uso de linter para seguir buenas prácticas (ESLINT).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
