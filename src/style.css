@@ -1,11 +1,13 @@
-
+.hide {
+    display: none;
+}
 
 body{
     font-family: 'Amaranth', sans-serif;
+}
+.centrar {
     text-align: center
 }
-
-
 #pag1
 {
     margin: 100pt 150pt 100pt;
@@ -19,10 +21,10 @@ img{
    } 
    
 #pag2{
-    margin: 150pt 150pt 150pt;
+    margin:150pt 150pt 150pt;
     }
     button{
-        background-color: #f2f2f2;
+    background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
     border-radius: 4px;
     color: #000000;
@@ -31,6 +33,7 @@ img{
     padding: 10px 26px;
     text-align: center;
     }
+    
 
 #pag3{
     margin: 100pt 150pt 100pt;
@@ -41,3 +44,5 @@ img{
     font-size: 20px;
 
 }
+
+

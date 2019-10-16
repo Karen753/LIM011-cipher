@@ -1,60 +1,59 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CODECIPHER</title>
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Amaranth&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class='hide'>
-      <div id="pag1" class="centrar">
-      <h1>CODECIPHER</h1>
-      <P>Cifra y descifra parrafos de forma segura</P>
-      <img src="http://www.seprytec.com/img_pag/iconos_portada/SEPRYTEC-guardias-de-seguridad.png"><br>
-      <button type="button" id="btn">EMPEZAR</button></div>
-    </div> 
-
-    <div class='hide'>
-    <div id="pag2" class="centrar">
-        <button type="button" id="cifrar">CIFRAR</button>
-        <button type="button" id="descifrar">DESCIFRAR</button><br>
+</head>
+<body>
+    <div id="pag1" class="centrar">
+        <h1>CODECIPHER</h1>
+        <p>Cifra y descifra parrafos de forma segura</p>
+        <img src="http://www.seprytec.com/img_pag/iconos_portada/SEPRYTEC-guardias-de-seguridad.png"><br>
+        <button type="button" id="empezar">EMPEZAR</button>
+    </div>
+    <div id="pag2" class="hide" class="centrar">
+        <button type=button id="entrarAcifrar">CIFRAR</button>
+        <button type=button id="entrarAdesdifrar">DESCIFRAR</button><br>
         <img src="candado cerrado.png"/>
-        <img src="candado abierto.png"/></div>
-      </div>
-
-      <div class='hide'>
-        <div id="pag3" class="centrar">
+        <img src="candado abierto.png"/>
+    </div>
+    <div id="pag3" class="hide" class="centrar">
         <div id="pag3-1">
-          <label for="">MENSAJE A CIFRAR</label><br>
-          <input id="clave">CLAVE</input><br>
-          <textarea id="cifrar" placeholder="mensaje a cifrar" cols=100 rows=10></textarea>
-          <button type="button" id="cifrarMensaje">CIFRAR MENSAJE</button></div>
+            <label for="">MENSAJE A CIFRAR</label><br>
+            <form id="formularioCifrar">
+            <input id="claveAcifrar" type="number">CLAVE</input><br>
+            <textarea id="mensajeAcifrar" placeholder="mensaje a cifrar" cols=100 rows=10></textarea><br></form>
+            <button type="button" id="cifrarmensaje">CIFRAR MENSAJE</button>
+        </div>
         <div id="pag3-2">
-         <label for="">MENSAJE CIFRADO</label><br>
-         <textarea id="cifrar2" placeholder="mensaje cifrado " cols=100 rows=10></textarea>
-         <button type="button" id="volver">VOLVER</button></div></div>
-      </div>
-     
-      <div class='hide'>
-         <div id="pag4" class=centrar>
+            <label for="">MENSAJE CIFRADO</label><br>
+            <form id="formularioCifrar2">
+            <textarea id="mensajeCifrado" placeholder="mensaje cifrado" cols=100 rows=10></textarea><br></form>
+            <button type="button" id="volver">VOLVER</button>
+        </div>
+    </div>
+    <div id="pag4" class="hide" class="centrar">
          <div id="pag4-1">
-            <label for="">MENSAJE A DESCIFRAR</label><br>
-            <input id="clave2">CLAVE</input><br>
-            <textarea id="descifrar" placeholder="mensaje a descifrar" cols=100 rows=10></textarea><br>
-            <button type="button" id="descifrarMensaje">DESCIFRAR MENSAJE</button></div>
-            <div id="pag4-2">
-            <label for="">MENSAJE DESCIFRADO</label><br>
-            <textarea id="descifrar2" placeholder="mensaje descifrado " cols=100 rows=10></textarea><br>
-            <button type="button" id="volver2">VOLVER</button></div>
-          </div>
-      </div>
-        
-       
-  
-    
+             <label for="">MENSAJE A DESCIFRAR</label><br>
+             <form id="formularioDescifrar">
+             <input id="claveAdescifrar" type="number">CLAVE</input><br>
+             <textarea id="mensajeAdescifrar" placeholder="mensaje a descifrar" cols=100 rows=10 ></textarea><br></form>
+             <button type="button" id="descifrarmensaje">DESCIFRAR MENSAJE</button>
+        </div>
+        <div id="pag4-2">
+             <label for="">MENSAJE DESCIFRADO</label><br>
+             <form id="formularioDescifrar2">
+             <textarea id="mensajeDescifrado" placeholder="mensaje descifrado " cols=100 rows=10></textarea><br></form>
+             <button type="button" id="volver2">VOLVER</button>
+        </div>
+    </div>
 
-    <script src="cipher.js"></script>
     <script src="index.js"></script>
-  </body>
+    <script src="cipher.js"></script>
+   
+</body>
 </html>

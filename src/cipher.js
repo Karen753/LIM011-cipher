@@ -1,21 +1,20 @@
 window.cipher = {
-  encode: (string, offset) => {
-    /* Acá va tu código que cifra*
-    let claves = string.charCodeAt(i);
+  encode: (offset, string) => {
+    /* Acá va tu código que cifra*/
+    let cipher=""; /*string*/
     for (let i= 0; i < string.length; i++) {
-       
-      if (65 <= claves && claves <= 90) {
-        cipher += String.charCodeAt(i)((claves - 65 + parseInt(offset)) % 26) + 65;
+      let claves = string.charCodeAt(i);
+       if (65 <= claves && claves <= 90) {
+        cipher += String.fromCharCode(((claves - 65 + parseInt(offset)) % 26) + 65);
       } else if (97 <= claves && claves <= 122){
-        cipher += String.fromCharCode((claves - 97 + parseInt(offset)) % 26) + 97;
+        cipher += String.fromCharCode(((claves - 97 + parseInt(offset)) % 26) + 97);
       } else {
         cipher += string.charAt(i);
       }
-    } return cipher;
-  },
+    } return cipher; },
 
   decode: (offset, string) => {
-    /* Acá va tu código que descifra
+    /* Acá va tu código que descifra*/
     let decipher="";
     for (let i= 0; i < string.length; i++) {
       const number = string.charCodeAt(i);
@@ -27,7 +26,7 @@ window.cipher = {
         decipher += string.charAt(i);
       }
     } return decipher;
-  }*/
+  }
     
       
   };

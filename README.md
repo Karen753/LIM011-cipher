@@ -17,23 +17,11 @@ mejorar la interfaz de vista
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 ### UX
 ​
-- [SI ] Diseñar la aplicación pensando y entendiendo al usuario.
-- [SI ] Crear prototipos para obtener feedback e iterar.
-- [SI ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+- [X] Diseñar la aplicación pensando y entendiendo al usuario.
+- [X] Crear prototipos para obtener feedback e iterar.
+- [X] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 ​
 ### HTML y CSS
 ​
@@ -43,8 +31,8 @@ mejorar la interfaz de vista
 ​
 ### DOM
 ​
-- [**NO**] Uso de selectores del DOM.
-- [**SI**] Manejo de eventos del DOM.
+- [NO] Uso de selectores del DOM.
+- [X] Manejo de eventos del DOM.
 - [NO] Manipulación dinámica del DOM.
 ​
 ### Javascript
@@ -59,7 +47,7 @@ mejorar la interfaz de vista
 - [NO ] Testeo de tus funciones.
 ​
 ### Git y GitHub
-- [SI] Comandos de git (add | commit | pull | status | push).
+- [X] Comandos de git (add | commit | pull | status | push).
 - [NO ] Manejo de repositorios de GitHub (clone | fork | gh-pages).
 ​
 ### Buenas prácticas de desarrollo
