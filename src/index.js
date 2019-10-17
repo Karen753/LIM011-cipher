@@ -49,8 +49,8 @@ volver2.addEventListener("click", ()=>{
 
 const cifrarMensaje = document.getElementById("cifrarmensaje");
 cifrarMensaje.addEventListener('click', ()=> {
-    let string = document.getElementById('mensajeAcifrar').value;
-    let offset = document.getElementById('claveAcifrar').value;
+    const string = document.getElementById('mensajeAcifrar').value;
+    const offset = document.getElementById('claveAcifrar').value;
     window.cipher.encode(offset, string);
     document.getElementById('mensajeCifrado').value = window.cipher.encode(offset, string); 
 });

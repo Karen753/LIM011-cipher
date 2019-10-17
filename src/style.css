@@ -4,12 +4,13 @@
 
 
 body{
-    background: url(fondo.jpg);
-    background-size:100% 100%;
+    background: url(papers.co-vk97-deep-ocean-abstract-digital-soft-green-pattern-1920x1080.jpg);
+    /*background-size:100% 100%;*/
     font-family: 'Amaranth', sans-serif;
 }
 .centrar {
     text-align: center
+
 }
 #pag1
 {
@@ -27,9 +28,10 @@ img{
     margin:150pt 150pt 150pt;
     }
     button{
-    background-color: #f2f2f2;
-    border: 1px solid #f2f2f2;
-    border-radius: 4px;
+    background-color: transparent;
+    border: 3px solid #f2f2f2;
+    font-weight:bold;
+    border-radius: 30px;
     color: #000000;
     font-size: 17px;
     margin: 15px 170px;
@@ -37,15 +39,29 @@ img{
     text-align: center;
     }
     
-
-#pag3{
+    #pag3{
     margin: 100pt 150pt 100pt;
     font-size: 20px;
 }
 #pag4{
     margin: 100pt 150pt 100pt;
     font-size: 20px;
-
 }
 
+.css2{
+    background-color: #ffffff;
+    border: 5px solid #037a09;
+    border-radius: 15px;
+}
+.css{
+    background-color: #ffffff ;
+    border: 3px solid #037a09;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 6px;
+}
+ .letras{
+    font-size: 30px;
+ }
 
+ 
